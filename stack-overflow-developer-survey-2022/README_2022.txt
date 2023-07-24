@@ -4,7 +4,7 @@ Description:
 
 The enclosed data set is the complete, cleaned results of the 2022 Stack Overflow Developer Survey. Free response submissions and personally-identifying information have been removed from the results to protect the privacy of respondents. There are three files besides this README:
 
-1. survey_results_public.csv - CSV file with main survey results, one respondent per row and one column per answer
+1. survey_results_public.csv - CSV file with main survey results, one respondent per row and one column per answer	-	I have split this into 5 different dataset to upload on Github
 2. survey_results_schema.csv - CSV file with survey schema, i.e., the questions that correspond to each column name
 3. so_survey_2022.pdf - PDF file of the survey instrument
 
@@ -31,3 +31,20 @@ TLDR: You are free to share, adapt, and create derivative works from The Public 
 Acknowledgment:
 
 Massive, heartfelt thanks to all Stack Overflow contributors and lurking developers of the world who took part in the survey this year. We value your generous participation more than you know. <3
+
+===========================================================
+
+This project includes just basic analysis based on this raw data which are as mentioned below:-
+
+1) Which type of persons are using and how many such records are there in the survey.
+2) No. of records for specific column/data set.
+3) Unique records for specific column/data set.
+4) Filtering the data for single column / for multiple columns.
+5) Plotting the No. of records for specific column on bar chart.
+6) Split the data using specific delimiter where there are multiple values.
+7) Stack the splitted data above in single column and count the frequency of the most used words.
+8) Plotting the top few words on graph based on highest to lowest frequency.
+
+Will come back with some more projects.
+
+Thanks.
